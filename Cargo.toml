@@ -9,7 +9,8 @@ time = "*"
 
 [dependencies.nix]
 
-git = "https://github.com/carllerche/nix-rust"
+git = "https://github.com/vberger/nix-rust.git"
+rev = "078fff6bc3a9a14ee11ec979397a193d4468ca90"
 
 [[test]]
 

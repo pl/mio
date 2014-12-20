@@ -66,7 +66,7 @@ impl Sub<PollOpt, PollOpt> for PollOpt {
 
 impl Not<PollOpt> for PollOpt {
     #[inline]
-    fn not(self) -> PollOpt {
+    fn not(&self) -> PollOpt {
         PollOpt(!self.bits() & PollOpt::all().bits())
     }
 }
